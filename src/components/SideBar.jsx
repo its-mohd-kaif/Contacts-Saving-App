@@ -18,7 +18,7 @@ function SideBar() {
                 to="/"
                 className={`flex items-center p-2 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group ${
                   location.pathname === "/" ? "bg-blue-500 text-white" : ""
-                }`}
+                } focus:bg-blue-500 focus:text-white`}
               >
                 <span className="ml-3">Contact</span>
               </Link>
@@ -30,7 +30,7 @@ function SideBar() {
                   location.pathname === "/charts"
                     ? "bg-blue-500 text-white"
                     : ""
-                }`}
+                } focus:bg-blue-500 focus:text-white`}
               >
                 <span className="flex-1 ml-3 whitespace-nowrap">
                   Chart and Maps
